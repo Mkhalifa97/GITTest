@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblHuzayfah = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -62,11 +63,21 @@
             this.label3.Text = "FARhann";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // lblHuzayfah
+            // 
+            this.lblHuzayfah.AutoSize = true;
+            this.lblHuzayfah.Location = new System.Drawing.Point(16, 77);
+            this.lblHuzayfah.Name = "lblHuzayfah";
+            this.lblHuzayfah.Size = new System.Drawing.Size(52, 13);
+            this.lblHuzayfah.TabIndex = 3;
+            this.lblHuzayfah.Text = "Huzayfah";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblHuzayfah);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -83,6 +94,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblHuzayfah;
     }
 }
 
