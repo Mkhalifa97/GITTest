@@ -43,9 +43,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 13);
+            this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "MK";
+            this.label1.Text = "Mohammed Khalifa";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -90,7 +90,6 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 117);
             this.label5.Location = new System.Drawing.Point(13, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
