@@ -32,10 +32,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnryan = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -76,14 +78,14 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Clyde ";
             // 
-            // label1
+            // label10
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 109);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Escalante";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(13, 13);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(89, 13);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Mohamed Khalifa";
             // 
             // label6
             // 
@@ -112,6 +114,15 @@
             this.label8.TabIndex = 10;
             this.label8.Text = "Clyde4";
             // 
+            // btnryan
+            // 
+            this.btnryan.Location = new System.Drawing.Point(132, 133);
+            this.btnryan.Name = "btnryan";
+            this.btnryan.Size = new System.Drawing.Size(95, 23);
+            this.btnryan.TabIndex = 10;
+            this.btnryan.Text = "RYanHAyton";
+            this.btnryan.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -131,6 +142,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -148,10 +160,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnryan;
         
     }
 }
