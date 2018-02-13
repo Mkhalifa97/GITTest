@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.githubexpert = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -84,11 +85,21 @@
             this.githubexpert.Text = "ryan";
             this.githubexpert.Click += new System.EventHandler(this.label5_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 138);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "ryanhayton";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.githubexpert);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -109,6 +120,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label githubexpert;
+        private System.Windows.Forms.Label label5;
     }
 }
 
