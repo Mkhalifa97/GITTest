@@ -34,6 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.githubexpert = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -78,7 +79,7 @@
             // githubexpert
             // 
             this.githubexpert.AutoSize = true;
-            this.githubexpert.Location = new System.Drawing.Point(13, 109);
+            this.githubexpert.Location = new System.Drawing.Point(13, 113);
             this.githubexpert.Name = "githubexpert";
             this.githubexpert.Size = new System.Drawing.Size(27, 13);
             this.githubexpert.TabIndex = 4;
@@ -88,17 +89,27 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 117);
+            this.label5.Location = new System.Drawing.Point(13, 146);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Clyde";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 180);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Github";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.githubexpert);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -121,6 +132,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label githubexpert;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
