@@ -47,7 +47,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 77);
+            this.label2.Location = new System.Drawing.Point(58, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 1;
@@ -71,6 +71,15 @@
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "change 2";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 83);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Rayn";
             // 
             // Form1
             // 
