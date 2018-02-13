@@ -34,8 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.githubexpert = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -80,7 +79,7 @@
             // githubexpert
             // 
             this.githubexpert.AutoSize = true;
-            this.githubexpert.Location = new System.Drawing.Point(13, 113);
+            this.githubexpert.Location = new System.Drawing.Point(13, 109);
             this.githubexpert.Name = "githubexpert";
             this.githubexpert.Size = new System.Drawing.Size(27, 13);
             this.githubexpert.TabIndex = 4;
@@ -96,31 +95,21 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Clyde";
             // 
-            // label6
+            // label9
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(61, 45);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Hansildaar";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(61, 141);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Escalante";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(46, 109);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(39, 13);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "hayton";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.githubexpert);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -143,8 +132,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label githubexpert;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
     }
 }
 
