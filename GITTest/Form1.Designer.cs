@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnryan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -101,11 +102,21 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Clyde3";
             // 
+            // btnryan
+            // 
+            this.btnryan.Location = new System.Drawing.Point(132, 133);
+            this.btnryan.Name = "btnryan";
+            this.btnryan.Size = new System.Drawing.Size(95, 23);
+            this.btnryan.TabIndex = 10;
+            this.btnryan.Text = "RYanHAyton";
+            this.btnryan.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnryan);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
@@ -129,6 +140,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnryan;
     }
 }
 
