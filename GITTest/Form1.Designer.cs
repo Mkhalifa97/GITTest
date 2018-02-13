@@ -79,6 +79,7 @@
             // githubexpert
             // 
             this.githubexpert.AutoSize = true;
+            this.githubexpert.Location = new System.Drawing.Point(18, 109);
             this.githubexpert.Location = new System.Drawing.Point(13, 113);
             this.githubexpert.Name = "githubexpert";
             this.githubexpert.Size = new System.Drawing.Size(27, 13);
@@ -90,6 +91,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 146);
+            this.label5.Location = new System.Drawing.Point(13, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
             this.label5.TabIndex = 4;
@@ -103,6 +105,15 @@
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Github";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(61, 45);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Hansildaar";
             // 
             // Form1
             // 
