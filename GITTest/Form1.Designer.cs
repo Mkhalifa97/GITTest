@@ -54,7 +54,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 51);
+            this.label3.Location = new System.Drawing.Point(19, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(294, 13);
             this.label3.TabIndex = 2;
@@ -82,7 +82,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(19, 23);
+            this.label10.Location = new System.Drawing.Point(19, 51);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 13);
             this.label10.TabIndex = 7;
@@ -98,12 +98,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(114, 23);
-            this.label6.Location = new System.Drawing.Point(33, 20);
+            this.label6.Location = new System.Drawing.Point(28, 230);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Mercedes C63 AMG";
             this.label6.Text = "Mohammed Khalifa2";
             // 
             // label7
@@ -136,7 +134,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Location = new System.Drawing.Point(73, 203);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 13);
             this.label9.TabIndex = 12;
@@ -145,7 +143,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(58, 116);
+            this.label20.Location = new System.Drawing.Point(61, 116);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(73, 13);
             this.label20.TabIndex = 13;
@@ -156,7 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(377, 325);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
