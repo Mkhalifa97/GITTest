@@ -54,9 +54,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 45);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 13);
+            this.label3.Size = new System.Drawing.Size(294, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Farhan  Hansildaar";
+            this.label3.Text = "Farhan  Hansildaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaar";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
@@ -86,41 +86,12 @@
             this.label10.TabIndex = 7;
             this.label10.Text = "Mohamed Khalifa";
             // 
-            // label6
+            // label1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 161);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Clyde2";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 200);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(39, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Clyde3";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(143, 199);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(39, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Clyde4";
-            // 
-            // btnryan
-            // 
-            this.btnryan.Location = new System.Drawing.Point(132, 133);
-            this.btnryan.Name = "btnryan";
-            this.btnryan.Size = new System.Drawing.Size(95, 23);
-            this.btnryan.TabIndex = 10;
-            this.btnryan.Text = "RYanHAyton";
-            this.btnryan.UseVisualStyleBackColor = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 11;
             // 
             // label6
             // 
@@ -131,12 +102,38 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Mohammed Khalifa2";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(16, 200);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(39, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Clyde3";
+            // 
+            // btnryan
+            // 
+            this.btnryan.Location = new System.Drawing.Point(132, 133);
+            this.btnryan.Name = "btnryan";
+            this.btnryan.Size = new System.Drawing.Size(95, 23);
+            this.btnryan.TabIndex = 10;
+            this.btnryan.Text = "RYanHAyton";
+            this.btnryan.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(143, 199);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(39, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Clyde4";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
