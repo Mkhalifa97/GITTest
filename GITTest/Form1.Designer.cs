@@ -68,9 +68,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(105, 103);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
+            this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "change 2";
+            this.label4.Text = "change2";
             // 
             // Form1
             // 
