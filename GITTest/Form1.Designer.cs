@@ -37,9 +37,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnryan = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.php = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -83,6 +82,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(19, 51);
+            this.label10.Location = new System.Drawing.Point(102, 119);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 13);
             this.label10.TabIndex = 7;
@@ -111,7 +111,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 13);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Ford Fiesta";
+            this.label7.Text = "Clyde3";
             // 
             // btnryan
             // 
@@ -122,21 +122,22 @@
             this.btnryan.Text = "RYanHAyton";
             this.btnryan.UseVisualStyleBackColor = true;
             // 
-            // label8
+            // php
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(125, 51);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "BMW M5";
+            this.php.AutoSize = true;
+            this.php.Location = new System.Drawing.Point(143, 199);
+            this.php.Name = "php";
+            this.php.Size = new System.Drawing.Size(39, 13);
+            this.php.TabIndex = 10;
+            this.php.Text = "Clyde4";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(73, 203);
+            this.label9.Location = new System.Drawing.Point(213, 45);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(25, 13);
             this.label9.TabIndex = 12;
             this.label9.Text = "label9";
             // 
@@ -149,6 +150,7 @@
             this.label20.TabIndex = 13;
             this.label20.Text = "Bugatti Chiron";
             this.label20.Click += new System.EventHandler(this.label20_Click);
+            this.label9.Text = "php";
             // 
             // Form1
             // 
@@ -158,6 +160,9 @@
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label6);
+            
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
@@ -183,11 +188,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label php;
         private System.Windows.Forms.Button btnryan;
-        
+        private System.Windows.Forms.Label label9;
     }
 }
 
