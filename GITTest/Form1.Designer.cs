@@ -55,9 +55,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(44, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
+            this.label3.Size = new System.Drawing.Size(316, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Farhan Boss Man";
+            this.label3.Text = "Farhan PHP Hansildaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaar";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
