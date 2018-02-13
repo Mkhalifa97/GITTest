@@ -34,6 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.githubexpert = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,15 +69,6 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(105, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "change 2";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 83);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(32, 13);
@@ -87,7 +79,6 @@
             // githubexpert
             // 
             this.githubexpert.AutoSize = true;
-            this.githubexpert.Location = new System.Drawing.Point(13, 113);
             this.githubexpert.Location = new System.Drawing.Point(13, 109);
             this.githubexpert.Name = "githubexpert";
             this.githubexpert.Size = new System.Drawing.Size(27, 13);
@@ -98,18 +89,27 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 117);
             this.label5.Location = new System.Drawing.Point(13, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Clyde";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(46, 109);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(39, 13);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "hayton";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.githubexpert);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -132,6 +132,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label githubexpert;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label9;
     }
 }
 
