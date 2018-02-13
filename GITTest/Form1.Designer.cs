@@ -143,14 +143,7 @@
             this.label9.Text = "php";
             // 
             // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(61, 116);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 13);
-            this.label20.TabIndex = 13;
-            this.label20.Text = "Bugatti Chiron";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
+            //           
           
             // 
             // Form1
@@ -158,9 +151,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 325);
-            this.Controls.Add(this.label20);
+           
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+           
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
