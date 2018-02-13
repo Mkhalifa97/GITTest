@@ -87,9 +87,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(33, 20);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 13);
+            this.label6.Size = new System.Drawing.Size(103, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Mohammed Khalifa";
+            this.label6.Text = "Mohammed Khalifa2";
             // 
             // Form1
             // 
