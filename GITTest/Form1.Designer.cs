@@ -57,7 +57,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 70);
+            this.label5.Location = new System.Drawing.Point(12, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 5;
@@ -80,6 +80,15 @@
             this.label10.Size = new System.Drawing.Size(89, 13);
             this.label10.TabIndex = 7;
             this.label10.Text = "Mohamed Khalifa";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(32, 161);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Clyde2";
             // 
             // Form1
             // 
