@@ -32,10 +32,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.btnryan = new System.Windows.Forms.Button();
+            this.php = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -50,17 +53,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 45);
+            this.label3.Location = new System.Drawing.Point(19, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 13);
+            this.label3.Size = new System.Drawing.Size(316, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Farhan  Hansildaar";
+            this.label3.Text = "Farhan PHP Hansildaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaar";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 70);
+            this.label5.Location = new System.Drawing.Point(19, 83);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 5;
@@ -69,41 +72,72 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 109);
+            this.label4.Location = new System.Drawing.Point(19, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Clyde ";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(102, 119);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(89, 13);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Mohamed Khalifa";
+            // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 109);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Escalante";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 161);
+            this.label6.Location = new System.Drawing.Point(33, 20);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.Size = new System.Drawing.Size(103, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Clyde2";
+            this.label6.Text = "Mohammed Khalifa2";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 200);
+            this.label7.Location = new System.Drawing.Point(94, 83);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 9;
             this.label7.Text = "Clyde3";
             // 
-            // label8
+            // btnryan
             // 
+            this.btnryan.Location = new System.Drawing.Point(132, 133);
+            this.btnryan.Name = "btnryan";
+            this.btnryan.Size = new System.Drawing.Size(95, 23);
+            this.btnryan.TabIndex = 10;
+            this.btnryan.Text = "RYanHAyton";
+            this.btnryan.UseVisualStyleBackColor = true;
+            // 
+            // php
+            // 
+            this.php.AutoSize = true;
+            this.php.Location = new System.Drawing.Point(143, 199);
+            this.php.Name = "php";
+            this.php.Size = new System.Drawing.Size(39, 13);
+            this.php.TabIndex = 10;
+            this.php.Text = "Clyde4";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(213, 45);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(25, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "php";
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(146, 146);
             this.label8.Name = "label8";
@@ -116,10 +150,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -137,10 +171,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label php;
+        private System.Windows.Forms.Button btnryan;
+        private System.Windows.Forms.Label label9;
     }
 }
 
