@@ -90,6 +90,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 117);
             this.label5.Location = new System.Drawing.Point(13, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
