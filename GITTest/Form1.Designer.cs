@@ -140,7 +140,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 13);
             this.label9.TabIndex = 12;
-            this.label9.Text = "label9";
+            this.label9.Text = "php";
             // 
             // label20
             // 
@@ -151,7 +151,7 @@
             this.label20.TabIndex = 13;
             this.label20.Text = "Bugatti Chiron";
             this.label20.Click += new System.EventHandler(this.label20_Click);
-            this.label9.Text = "php";
+          
             // 
             // Form1
             // 
