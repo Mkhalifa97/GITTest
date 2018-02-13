@@ -87,6 +87,7 @@
             // githubexpert
             // 
             this.githubexpert.AutoSize = true;
+            this.githubexpert.Location = new System.Drawing.Point(13, 113);
             this.githubexpert.Location = new System.Drawing.Point(13, 109);
             this.githubexpert.Name = "githubexpert";
             this.githubexpert.Size = new System.Drawing.Size(27, 13);
@@ -98,26 +99,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 117);
+            this.label5.Location = new System.Drawing.Point(13, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Clyde";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 138);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "ryanhayton";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.githubexpert);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
